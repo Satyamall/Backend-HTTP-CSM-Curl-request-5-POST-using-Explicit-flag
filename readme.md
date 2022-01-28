@@ -7,7 +7,7 @@
 
 -curl -X POST --header "Content-Type: application/json" -d "{\"userId\": \"1\", \"id\":\"1\", \"title\": \"delectus aut autem\",\"completed\":\"false\"}" https://jsonplaceholder.typicode.com/todos (make a post request using the /todos endpoint, using explicit flag ( which means use -X ))
 
--curl -o todoPost.txt -X POST --header "Content-Type: application/json" -d "{\"userId\": \"1\", \"id\":\"1\", \"title\": \"delectus aut autem\",\"completed\":\"false\"}" https://jsonplaceholder.typicode.com/todos(to store the todos post request in todoPost.txt)
+-curl -o todoPost.txt -X POST --header "Content-Type: application/json" -d "{\"userId\": \"1\", \"id\":\"1\", \"title\": \"delectus aut autem\",\"completed\":\"false\"}" https://jsonplaceholder.typicode.com/todos (to store the todos post request in todoPost.txt)
 
 
 
