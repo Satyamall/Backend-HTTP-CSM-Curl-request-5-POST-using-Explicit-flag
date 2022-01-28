@@ -1,5 +1,5 @@
 
-### Curl command for Curl-request-4-POST
+### Curl command for Curl-request-5-POST using Explicit flag (which means use -X)
 
 -we can also use -H in place of --header
 -and -d in place of --data
